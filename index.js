@@ -10,7 +10,7 @@ var S = {
     if (i !== -1) {
       S.UI.simulate(decodeURI(action).substring(i + 3));
     } else {
-      S.UI.simulate('2014年|那个懵懂的我|遇见了我的女神|明珠|我|爱|你|一生一世|我爱你|我爱你');
+      S.UI.simulate('2014年-女神|明珠|喜欢--爱你|小明珠|我|爱|你|一生一世|I love You|你是我的小幸运');
     }
 
     S.Drawing.loop(function () {
